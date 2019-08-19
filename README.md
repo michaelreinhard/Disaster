@@ -2,11 +2,13 @@
 
 This project seeks to classify tweets surrounding natural disasters into one of 36 categories. It also includes a web app that allows the user to classify new tweets into the existing categories. 
 
+## Directions 
+
 Though there are many files in this repo only three are needed to run the app, the data preparation file, the model building file and the app running file itself. 
 
 First, from inside the 'Disaster' folder, run the data pipeline, , with the code:
 
-```python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db'
+```python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
 ```
 
 Second, run the model, 'train_classifier.py', which will create the model and pickle it in a file called 'classifier.pkl'. In the command line from inside the 'Disaster' folder run this code: 
