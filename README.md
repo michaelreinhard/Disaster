@@ -6,7 +6,7 @@ This project seeks to classify tweets surrounding natural disasters into one of 
 
 Though there are many files in this repo only three are needed to run the app, the data preparation file, the model building file and the app running file itself. 
 
-First, from inside the 'Disaster' folder, run the data pipeline, , with the code:
+First, open a command terminal from inside the 'Disaster' folder and run the data pipeline, `process_data.py`, with the code:
 ```
 python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
 ```
